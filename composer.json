@@ -1,0 +1,17 @@
+{
+    "name": "lukasbestle/advent-of-code-2020",
+    "type": "project",
+    "require": {
+        "getkirby/cms": "^3.4"
+    },
+    "autoload": {
+        "files": ["_common.php"]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Bestle",
+            "email": "project-adventofcode@lukasbestle.com"
+        }
+    ]
+}
