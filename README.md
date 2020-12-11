@@ -18,8 +18,8 @@ My main goals for the puzzle solutions are the opposite of code golf:
 ```
 composer install
 
-php 1.php
-php 2.php
+php 01.php
+php 02.php
 ...
 ```
 
