@@ -8,7 +8,7 @@ use Kirby\Toolkit\Str;
 $data = explode("\n", $data);
 
 answer('a', calculateAll($data, 'calculateLeftToRight'));
-answer('b', calculateAll($data, 'calculateAdditionPrecendene'));
+answer('b', calculateAll($data, 'calculateAdditionPrecendence'));
 
 /**
  * Calculates all expressions using the provided function
@@ -83,7 +83,7 @@ function calculateLeftToRight(string $expression): int
  * @param string $expression
  * @return int
  */
-function calculateAdditionPrecendene(string $expression): int
+function calculateAdditionPrecendence(string $expression): int
 {
     // first replace all additions with their totals
     $expression = preg_replace_callback('/\d+( \+ \d+)+/', function ($matches) {
